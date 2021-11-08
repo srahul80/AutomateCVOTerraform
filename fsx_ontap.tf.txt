@@ -16,7 +16,7 @@ resource "netapp-cloudmanager_aws_fsx" "aws-fsx" {
               tag_key = "location"
               tag_value = "US"
             }
-  tenant_id = "SeNp03brJsHo8jLjl5AKVfco9fmchmroclients"
+  tenant_id = "account-Pl62LRPu""
   fsx_admin_password = "Password!1234"
   throughput_capacity = 512
   storage_capacity_size = 1024
